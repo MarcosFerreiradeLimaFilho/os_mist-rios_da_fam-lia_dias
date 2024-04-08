@@ -227,6 +227,7 @@ public class Game implements java.io.Serializable {
         showTest("insira cartão no conector");
         showTest("olhe painel");
         showTest("olhe tela");
+        showTest("pegue relógio de bolso");
         
         
         

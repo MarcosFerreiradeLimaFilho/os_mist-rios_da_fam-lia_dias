@@ -147,6 +147,7 @@ public class VocabularyData implements java.io.Serializable {
         vocab.put("grande", WT.ADJECTIVE);
         vocab.put("papelão", WT.ADJECTIVE);
         
+        vocab.put("papelão", WT.ADJECTIVE);
         vocab.put("display", WT.ADJECTIVE);
         vocab.put("controle", WT.ADJECTIVE);
         
