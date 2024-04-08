@@ -335,9 +335,66 @@ public class GameData implements java.io.Serializable {
 
     // Intro - add any text to be shown when game starts
     private static void defineIntroText() {
-        introtext = "Você se encontra no laboratório de perícia de Recife - PE,\n"
-                + "O que você deseja fazer?\n"
-                + "(Digite q para encerrar e 'terminar' para ver o jogo até o fim) ";
+        introtext = """
+        Olá, Dr. Sheldon Gomes!
+
+        Bem-vindo ao seu primeiro dia de trabalho no laboratório criminal de Recife. O seu primeiro caso [ desenvolver ]
+        ======================================================================
+        Exame Necroscópico
+        
+        Nome do(a) falecido(a): Maria Dias
+        Sexo: Feminino 
+        Raça: Branca
+        
+        Data de nascimento:
+        Idade: 19 anos
+        
+        Causa da morte:
+        ( ) Natural	( ) Acidente 	( ) Homicídio 	( ) Suicídio 	(X) Indeterminada
+        
+        Médico responsável
+        Nome: Humberto Ferreira
+        
+        Tanatologia do Cadáver:
+        
+        Morte caracterizada pelos sinais imediatos típicos de afogamento, com Pallor Mortis e Rigor Mortis em estágio inicial. 
+        As manchas cutâneas hipostáticas, juntamente com Algor Mortis indicam que a morte ocorreu há pelo menos 3 horas desde 
+        que foi encontrada.
+        
+        Lesões e outros Ferimentos:
+        
+        Coloração estranha na pele e nos olhos.
+        Manchas no interior da boca e da garganta.
+        
+        Causa da Morte:
+        
+        É impossível determinar com certeza, então a causa médica da morte será registrada como afogamento e causa médico-legal acidental e/ou intencional.
+        
+        Outros Fatos Forenses:
+        
+        A vítima foi exposta a uma grande quantidade de Amianto/Absinto, um mineral muito utilizado em construções antigamente e 
+        completamente nocivo para a saúde humana.
+        ======================================================================
+        
+        Antes de prosseguirmos, passarei algumas instruções:
+
+        Movimentação:
+
+        - Norte
+        - Sul
+        - Leste
+        - Oeste
+
+        Interação:
+
+        - examine
+        - pegue
+        - observe
+
+        Para abrir o inventário tecle a letra ( i ) do seu teclado.
+
+        O que você deseja fazer?
+        (Digite q para encerrar e 'terminar' para ver o jogo até o fim) """;
     }
 
     public static String introText() {
